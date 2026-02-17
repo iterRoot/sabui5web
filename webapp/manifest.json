@@ -22,7 +22,8 @@
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
-				"sap.f": {}
+				"sap.f": {},
+				"sap.ui.integration": {}
 			}
 		},
 		"contentDensities": {
@@ -53,6 +54,22 @@
 					"uri": "css/styles.css"
 				}
 			]
+
+		},
+			"config": {
+			"sample": {
+				"files": [
+					"CardsLayout.view.xml",
+					"CardsLayout.controller.js",
+					"model/cardManifests.json",
+					"componentCard/Component.js",
+					"componentCard/manifest.json",
+					"componentCard/View.view.xml",
+					"componentCard/ComponentCard.controller.js",
+					"manifest.json"
+				]
+			}
 		}
+
 	}
 }
