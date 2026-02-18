@@ -38,6 +38,12 @@
 							<f:GridContainerSettings rowSize="5rem" columnSize="5rem" gap="1rem"/>
 						</f:layout>
 
+						<w:Card manifest="cards/BPMaster.json">
+							<w:layoutData>
+								<f:GridContainerItemLayoutData columns="3" rows="2"/>
+							</w:layoutData>
+					
+						</w:Card>
 						<w:Card manifest="cards/kpiCard.json">
 							<w:layoutData>
 								<f:GridContainerItemLayoutData columns="3" rows="2"/>
@@ -50,44 +56,42 @@
 				</Panel>
 				<Title text="Job Master" level="H2" class="sapUiSmallMarginBegin sapUiSmallMarginTop sapUiResponsiveMargin"/>
 				<Panel height="200px" width="auto" class="sapUiResponsiveMargin">
-
 					<content>
-					<f:GridContainer>
-						<f:layout>
-							<f:GridContainerSettings rowSize="5rem" columnSize="5rem" gap="1rem"/>
-						</f:layout>
+						<f:GridContainer>
+							<f:layout>
+								<f:GridContainerSettings rowSize="5rem" columnSize="5rem" gap="1rem"/>
+							</f:layout>
 
-						<w:Card manifest="cards/kpiCard.json">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData columns="3" rows="2"/>
-							</w:layoutData>
-					
-						</w:Card>
+							<w:Card manifest="cards/kpiCard.json">
+								<w:layoutData>
+									<f:GridContainerItemLayoutData columns="3" rows="2"/>
+								</w:layoutData>
+							</w:Card>
 
-					</f:GridContainer>
-					</content>
+							<w:Card manifest="cards/kpiCard.json">
+								<w:layoutData>
+									<f:GridContainerItemLayoutData columns="3" rows="2"/>
+								</w:layoutData>
+							</w:Card>
 
-					<content>
-					<f:GridContainer>
-						<f:layout>
-							<f:GridContainerSettings rowSize="5rem" columnSize="5rem" gap="1rem"/>
-						</f:layout>
+														<w:Card manifest="cards/kpiCard.json">
+								<w:layoutData>
+									<f:GridContainerItemLayoutData columns="3" rows="2"/>
+								</w:layoutData>
+							</w:Card>
+							<w:Card manifest="cards/kpiCard.json">
+								<w:layoutData>
+									<f:GridContainerItemLayoutData columns="3" rows="2"/>
+								</w:layoutData>
+							</w:Card>
 
-						<w:Card manifest="cards/kpiCard.json">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData columns="3" rows="2"/>
-							</w:layoutData>
-					
-						</w:Card>
 
-					</f:GridContainer>
+						</f:GridContainer>
 					</content>
 				</Panel>
 
-				
-
 				<Title text="Expense" level="H2" class="sapUiSmallMarginBegin sapUiSmallMarginTop sapUiResponsiveMargin"/>
-				<Panel height="200px" width="auto" class="sapUiResponsiveMargin">
+				<Panel height="250px" width="auto" class="sapUiResponsiveMargin">
 
 					<content>
 					<f:GridContainer>

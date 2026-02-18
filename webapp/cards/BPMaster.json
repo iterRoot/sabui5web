@@ -1,0 +1,22 @@
+{
+    "sap.app": {
+      "id": "kpi.card",
+      "type": "card"
+    },
+    "sap.card": {
+      "type": "Numeric",
+      "header": {
+        "title": "BP Master",
+        "subTitle": "Updated today",
+        "icon": {
+          "src": "sap-icon://expense-report"
+        }
+      },
+      "content": {
+        "value": "158",
+        "details": "Total Items",
+        "valueColor": "Neutral"
+      }
+    }
+  }
+  
